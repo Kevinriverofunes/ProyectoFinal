@@ -1,7 +1,7 @@
 header{
 
     display: flex;
-    background-color: #285430;
+    background-color: #A4BE7B;
     height: 70px;
     justify-content: space-between;
     padding: 10px;
@@ -19,21 +19,118 @@ header{
  body{
     font-family: sans-serif;
     margin: 0;
-    background-color: #A4BE7B;
+    background-color: #E5D9B6;
 }
 a{
     text-decoration: none; 
-    color: black; 
+    color: #285430; 
 
 }
 
 nav a{
 font-weight: 600;
 padding-right: 10px;
+
 }
 .navegador a:hover{
     color: white;
 }
 .title{
-  font-family: sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+ @media(max-width: 480px){
+    
+ }
+ .cont{
+    text-align: center;
+ }
+ .parrafo{
+    
+    text-align: center;
+    margin: 40px 0;
+    color:#285430;
+    font-size: 40;
+    margin: 50px;
+   
+     }
+     .Bienvenida{
+        color: #285430;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     .Productos{
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+         }
+    .producto1{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/producto1.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .producto2{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/producto2.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .producto3{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/proyecto3.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .producto4{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/producto4.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .producto5{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/producto5.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .producto6{
+        font-size: 10px;
+        height: 200px;
+        width: 200px;
+        background-image: url("../Proyecto\ final/producto6.jpg");
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tituloP{
+        color: #285430;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
