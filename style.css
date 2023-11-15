@@ -35,9 +35,16 @@ padding-right: 10px;
 .navegador a:hover{
     color: white;
 }
-.title{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+.title{font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 40px; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: #5F8D4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ 
+
+
  @media(max-width: 480px){
     
  }
@@ -49,12 +56,16 @@ padding-right: 10px;
     text-align: center;
     margin: 40px 0;
     color:#285430;
-    font-size: 40;
+    font-size: 20px;
     margin: 50px;
    
      }
      .Bienvenida{
-        color: #285430;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 40px; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #5F8D4E;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
 
@@ -131,6 +142,137 @@ padding-right: 10px;
 
     }
     .tituloP{
-        color: #285430;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 40px; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #5F8D4E;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.precios  {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+    }
+    .items{
+        border-radius: 10px;
+
+
+    }
+    .items :hover{
+        box-shadow: 0 10px 20px rgba(0,0,0,0.20);
+    }
+    .infoprecio{
+        padding: 15px 30px;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .items img{
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+    .Titulo2{
+        text-align: center;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 40px; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #5F8D4E;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.price{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900px;
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+.ConoceNuestrosProductos{
+    text-align: center;
+    margin: 40 ;
+    color:#285430;
+    font-size: 20px;
+    margin: 50px;
+}
+.comentarios {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.usuario {
+    font-weight: bold;
+}
+
+.nuevo-comentario {
+    width: 60%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+    img{
+        max-width: 100%;
+    }
+    .footer{
+        background-color: #285430;
+        padding: 80px 0;
+    }
+    .footer-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-enlaces{
+        width: 25%;
+        padding: 0 15px;
+    }
+    .footer-enlaces h4{
+        font-size: 20px;
+        color: aliceblue;
+        margin-bottom: 25px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #4CAF50;
+        display: inline-block;
+
+
+    }
+    .footer-enlaces ul li{
+        font-size: 18px;
+        text-decoration: none;
+        color: #aaaaaa;
+        display: block;
+        margin-bottom: 15px;
+        transition: all .3s ease;
+        
     }
