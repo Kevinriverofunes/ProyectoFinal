@@ -39,7 +39,7 @@ display: flex;
 
 nav a{
 font-weight: 600;
-padding-right: 10px;
+padding-right: 20px;
 
 }
 .navegador a:hover{
@@ -277,13 +277,53 @@ input[type="submit"] {
 
 
     }
-    .footer-enlaces ul li{
+    .footer-enlaces {
         font-size: 18px;
         text-decoration: none;
-        color: #aaaaaa;
+        color: cornsilk;
         display: block;
         margin-bottom: 15px;
-        transition: all .3s ease;
+        
         
     }
+ .loginEstilos{
+    align-items: center;
+    display: flex;
+ }
+ .Tiru{
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 40px; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: #5F8D4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+ .parrafosesion{
+    text-align: center;
+
+ }
    
+ .classreg{
+    align-items: center;
+    display: flex;
+ }
+ .regparrafo{
+    text-align: center;
+
+ }
+.regT{
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 40px; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: #5F8D4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.asd{
+   text-align: left;
+    height: 60px;
+    margin-right: 100px;
+}
