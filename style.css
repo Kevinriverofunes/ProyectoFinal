@@ -27,6 +27,16 @@ a{
 
 }
 
+button{
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-weight: 600;
+padding-right: 10px;
+display: flex;
+
+}
+
 nav a{
 font-weight: 600;
 padding-right: 10px;
@@ -276,3 +286,4 @@ input[type="submit"] {
         transition: all .3s ease;
         
     }
+   
