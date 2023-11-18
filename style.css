@@ -327,3 +327,31 @@ input[type="submit"] {
     height: 60px;
     margin-right: 100px;
 }
+.LoginS{
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 20px; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: #5F8D4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  
+}
+#loginForm {
+    align-items: center;
+    display: flex;
+  }
+  .signup{
+    text-align: center;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 20px; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    color: #5F8D4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  
+  }
+  #signupForm{
+    align-items: center;
+    display: flex;
+  }
