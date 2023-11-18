@@ -277,7 +277,7 @@ input[type="submit"] {
 
 
     }
-    .footer-enlaces {
+    .footer-enlaces ul li{
         font-size: 18px;
         text-decoration: none;
         color: cornsilk;
